@@ -1,0 +1,23 @@
+{
+  "name": "vef1-2020-h1-master",
+  "version": "1.0.0",
+  "description": "Verkefnið felst í því að smíða vef eftir forskrift.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.13"
+  },
+  "scripts": {
+    "browser-sync": "browser-sync start --server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndresDaniel1/hopverk1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndresDaniel1/hopverk1/issues"
+  },
+  "homepage": "https://github.com/AndresDaniel1/hopverk1#readme"
+}
