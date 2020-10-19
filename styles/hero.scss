@@ -1,0 +1,17 @@
+.hero {
+    min-height: 800px;
+    background-image: url(img/cake.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+    &__grid {
+        max-width: 1290px;
+        margin: 0;
+        display: flex;
+    }
+
+    &__content {
+        width: 50%;
+        margin: auto;
+    }
+}
