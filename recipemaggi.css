@@ -40,6 +40,13 @@ header{
     color: #9B9B9B;
 }
 
+.botn{
+    background-color:#000000;
+    width:1600px;
+    height:339px;
+
+}
+
 .toppur{
     width: 1600px;
     height: 800px;
@@ -122,13 +129,17 @@ header{
 }
 
 .method-grid{
-  margin-left:80px;  
+  margin-left:220px; 
+  
+  margin-right:150px;
+
 }
 
 .flexari{
-    align-items: center;
+    align-items: top;
     display: flex;
     justify-content: space-between;
+    margin-top:80px;
 }
 
 .Ingredients-grid{
@@ -149,3 +160,108 @@ header{
     font-weight: 300;
 
 }
+.Ingredients-title{
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 17px;
+    color: #000000;
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+
+.flexin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:1600px;
+    height:339px;
+
+}
+
+.subgroup{
+    margin-left:110px;
+
+}
+
+.subscribe{
+    color:#FFFFFF;
+    font-family: Playfair-Display;
+    font-size: 40px;
+    
+}
+
+.socials{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.subbutton{
+    border: 1px solid #E3CDB1;
+    font-family: Poppins;
+    margin-right: 200px;
+
+
+}
+
+.cravin_kicker{
+    color:#E3CDB1;
+    font-size: 16px;
+    display:flex;
+    align-items:flex-end;
+    font-family: Poppins;
+
+
+}
+.craving_email{
+    font-family: Poppins;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.vid__socials{
+    background: #f2f2f2f2;
+  }
+  
+  .face{
+    position: absolute;
+    left: 720px;
+    top: 2910px;
+    bottom: 360px;
+  
+  
+  }
+  .bird{
+    position: absolute;
+    left: 792.08px;
+    top: 2910px;
+    bottom: 360px;
+  
+  }
+  .yout{
+    position: absolute;
+    left: 851.46px;
+    top: 2910px;
+  }
+  
+  .www{
+    position: absolute;
+  left: 754px;
+  top: 2940px;
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  
+  
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.291667px;
+  
+  color: #D0D0D0;
+  
+  }
+
