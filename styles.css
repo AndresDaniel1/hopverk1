@@ -10,10 +10,50 @@ body {
 
 }
 
+/* header */
+
+header{
+    height: 100px;
+    max-width: 1290px;
+    margin: 0 auto;
+    
+    background-attachment: fixed;
+    display: flex;
+    align-items: flex-end;
+    height: 1 rem;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.righttext{
+    
+    width: 224px;
+    height: 23px;
+    left: 1066px;
+    top: 8px;
+    display: flex;
+    justify-content: space-around;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+
+    
+    align-items: flex-end;
+
+    color: #9B9B9B;
+}
+
+
+
 /* hero */
 
 .hero {
-    min-height: 800px;
+    margin-top: 150px;
+    min-height: 600px;
     background-image: url(img/cake.png);
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -21,15 +61,198 @@ body {
 
 .hero__grid {
     max-width: 1290px;
-    margin: 0;
-    display: flex;
+    margin: 0 auto;
 }
 
 .hero__content {
     width: 50%;
-    margin: auto;
 }
+
+.text4recipes{
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+.hero__kicker{
+
+    width: 200px;
+    height: 24px;
+    left: 0px;
+    top: 2px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #E3CDB1;
+}
+
+.hero__title{
+    
+    width: 600px;
+    height: 80px;
+    left: 0px;
+    top: 24px;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 80px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #000000;
+}
+
+.hero__text{
+    width: 550px;
+    height: 128px;
+    left: 2px;
+    top: 125px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+
+    display: flex;
+    align-items: center;
+
+    color: #5E5B69;
+}
+
+.hero__buttons{
+    width: 250px;
+    height: 52px;
+    left: 0px;
+    top: 0px;
+    
+    border: 1px solid #E3CDB1;
+    box-sizing: border-box;
+}
+
+.buttonbutton--dark{
+    width: 77px;
+    height: 24px;
+    left: 87px;
+    top: 15px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+}
+
+
+.recipes{
+    width: 512px;
+    height: 53px;
+    left: 0px;
+    top: 28px;
+    margin-bottom: 50px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 53px;
+    display: flex;
+    align-items: flex-end;
+
+    color: #000000;
+}
+
+.row1{
+    max-width: 1290px;
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+}
+
+.recipebox{
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 100%;
+    min-width: 160px;
+
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+}
+
+.sushi{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.buttonbelowrecipes{
+    width: 250px;
+    height: 52px;
+    left: 0px;
+    top: 0px;
+
+    border: 1px solid #E3CDB1;
+    box-sizing: border-box;
+}
+
+.hero2 {
+    margin-top: 100px;
+    min-height: 600px;
+    background-image: url(img/Bitmap1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin-bottom: 150px;
+}
+
+
 
 footer{
     background-color: #000;
+    height: 250px;
 }
+
+.footerdiv{
+    display: flex;
+}
+
+
+.newsletter{
+    position: absolute;
+    width: 565px;
+    height: 53px;
+    left: 0px;
+    top: 26px;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 53px;
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+}
+
+
+
+
