@@ -1,0 +1,151 @@
+* {
+
+}
+.body{
+
+}
+header{
+    height: 100px;
+    max-width: 1290px;
+    margin: 0 auto;
+    
+    background-attachment: fixed;
+    display: flex;
+    align-items: flex-end;
+    height: 1 rem;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+}
+
+.righttext{
+    
+    width: 224px;
+    height: 23px;
+    left: 1066px;
+    top: 8px;
+    display: flex;
+    justify-content: space-around;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+
+    
+    align-items: flex-end;
+
+    color: #9B9B9B;
+}
+
+.toppur{
+    width: 1600px;
+    height: 800px;
+    background-color: #FAFAFA;
+}
+
+
+
+/* hero */
+
+.hero {
+    margin-top: 150px;
+    min-height: 600px;
+    background-image: url(img/cake.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: #FAFAFA;
+}
+
+.hero__grid {
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+.hero__content {
+    width: 50%;
+}
+
+.hero__title{
+    
+    width: 356px;
+    height: 80px;
+    left: 0px;
+    top: 24px;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 80px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #000000;
+}
+
+.hero__text{
+    width: 550px;
+    height: 128px;
+    left: 2px;
+    top: 125px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+
+    display: flex;
+    align-items: center;
+
+    color: #5E5B69;
+}
+
+.hero__kicker:first-word{
+    font-weight: bold;
+
+}
+
+.hero__kicker{
+    font-family: Poppins;
+    font-style: normal;
+    color: #5E5B69;
+    margin-bottom:40px;
+
+
+}
+
+.method-grid{
+  margin-left:80px;  
+}
+
+.flexari{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Ingredients-grid{
+    margin-left:150px;
+}
+
+.method-title{
+    font-family: Poppins;
+    color: #D0D0D0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.method-text{
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 300;
+
+}
