@@ -1,0 +1,272 @@
+/*
+Global stílar
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Open Sans', helvetica, arial, sans-serif;
+  color: #222222;
+}
+
+a {
+  color: #222222;
+}
+
+h2, h4 {
+  font-family: 'Poppins'
+}
+h1{
+  width: 356px;
+  height: 80px;
+  left: 0px;
+  top: 24px;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 80px;
+
+  display: flex;
+  align-items: flex-end;
+
+  color: #000000
+}
+
+h3{
+  font-family: Poppins;
+  font-weight: 100%;
+}
+
+/*
+Header
+*/
+header {
+  margin-bottom: 2rem;
+  height: 100px;
+  max-width: 1290px;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 30px;
+  display: flex;
+  background-attachment: fixed;
+  justify-content: space-between;
+}
+.righttext{
+  width: 224px;
+  height: 23px;
+  left: 1066px;
+  top: 8px;
+  display: flex;
+  justify-content: space-around;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+
+  align-items: flex-end;
+}
+
+header .content {
+  margin: auto;
+  width: 100%;
+
+}
+
+header h1 {
+  font-size: 6vmax;
+}
+
+header h2 {
+  font-size: 3vmax;
+}
+
+/*
+Meginmál
+*/
+
+main {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*
+Events
+*/
+
+.events {
+  margin-bottom: 2rem;
+}
+
+span{
+  font-family: Poppins;
+  color: #e3cdb1;
+}
+
+.events .col {
+  margin-bottom: 2rem;
+}
+
+.event {
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+  min-height: 250px;
+
+  background-color: #cccccc;
+
+  word-break: break-word;
+}
+
+.event:last-child {
+  margin-right: 0;
+}
+
+.event h3 {
+  margin-bottom: 1rem;
+}
+
+.event p {
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.event ul {
+  list-style: none;
+  font-style: italic;
+}
+
+.event .card {
+  position: absolute;
+  display: flex;
+  left: 0; right: 0; top: 0; bottom: 0;
+  transform-style: preserve-3d;
+  transition: transform 300ms ease-in-out;
+}
+
+.event:hover .card {
+  transform: rotateY(180deg);
+}
+
+.event .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  padding: 0.5rem;
+}
+
+.event .face.back {
+  transform: rotateY(180deg);
+}
+
+.event .front {
+  display: flex;
+}
+
+.event .front h3 {
+  margin: auto;
+  font-size: 2em;
+  text-align: center;
+}
+
+.event .back {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* books */
+
+.books {
+  margin-bottom: 2rem;
+}
+
+.books .col {
+  margin-bottom: 2rem;
+}
+
+.book {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 100%;
+  min-width: 160px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.book > .content {
+  padding: 0.5rem;
+  border-top: 0;
+
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.book .image {
+  height: 200px;
+  overflow: hidden;
+}
+
+.book .image img {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+
+  transition: transform 300ms ease-in-out ;
+}
+
+.book:hover .image img {
+  transform: scale(1.3);
+}
+
+.book h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.book h4 {
+  font-size: 0.875rem;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.book .buy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book .buy .price {
+  margin-right: 0.5rem;
+}
+
+.seemore{
+  position: static;
+  width: 1291px;
+  height: 52px;
+  left: -0.5px;
+  top: 3084px;
+
+  flex: none;
+  order: 8;
+  align-self: center;
+  flex-grow: 0;
+  margin: 0px 30px;
+}

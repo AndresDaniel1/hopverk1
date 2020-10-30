@@ -1,0 +1,35 @@
+/* TODO þýða úr sass hér */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+/* hero */
+
+.hero {
+    min-height: 800px;
+    background-image: url(img/cake.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.hero__grid {
+    max-width: 1290px;
+    margin: 0;
+    display: flex;
+}
+
+.hero__content {
+    width: 50%;
+    margin: auto;
+}
+
+footer{
+    background-color: #000;
+}

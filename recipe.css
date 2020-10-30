@@ -1,0 +1,137 @@
+.body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.recipe{
+  background: #F2F2F2;
+
+}
+
+h3{
+
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 53px;
+display: flex;
+align-items: flex-end;
+
+color: #D0D0D0;
+}
+
+.recipe__title{
+  position: absolute;
+  width: 214px;
+  height: 53px;
+  left: 150px;
+  top: 825px;
+}
+.recipe__method{
+  position: absolute;
+  width: 222px;
+  height: 53px;
+  left: 595px;
+  top: 800px;
+}
+.recipe__dough{
+position: absolute;
+width: 200px;
+height: 17px;
+left: 150px;
+top: 900px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 17px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+.recipe__filling{
+  position: absolute;
+  width: 125px;
+  height: 17px;
+  left: 150px;
+  top: 1085px;
+
+  font-family: Poppins;
+  font-style: normal;
+
+  font-size: 18px;
+  line-height: 17px;
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.recipe__dough__list{
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  left: 218px;
+  top: 920px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 17px;
+  line-height: 32px;
+
+
+  align-items: center;
+
+  color: #9B9B9B;
+
+}
+
+.recipe__filling__list{
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  top: 1111px;
+  left: 218px;
+
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 17px;
+  line-height: 32px;
+
+
+
+
+  align-items: center;
+
+  color: #9B9B9B;
+}
+
+.recipe__method__text{
+  position: absolute;
+  width: 850px;
+  height: 762px;
+  left: 595px;
+  top: 88x;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+
+  display: flex;
+  align-items: center;
+
+  color: #5E5B69;
+}
