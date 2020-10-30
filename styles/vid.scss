@@ -1,1 +1,98 @@
-
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header {
+	height: 80px;
+	max-width: 1600px;
+	left: 0px;
+	top: 80px;
+	background: #FFFFFF;
+	box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.05);
+	display: flex;
+	align-items: flex-end;
+	height: 1 rem;
+	width: 100%;
+	justify-content: space-between;
+}
+.logo {
+	position: absolute;
+	width: 133px;
+	height: 25px;
+	left: 152.4px;
+	top: 15px;
+}
+.headertext {
+	position: absolute;
+	width: 224px;
+	height: 23px;
+	left: 1061px;
+	top: 20px;
+	font-family: $font_family_1;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 22px;
+	display: flex;
+	align-items: flex-end;
+	color: $color_1;
+}
+.vid {
+	position: absolute;
+	background-position: right;
+	background: url(img/Image.png);
+	left: 0px;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+.vid__content {
+	width: 1600px;
+	height: 650px;
+	left: 0px;
+	top: 0px;
+	background: linear-gradient(to right, #000000, #000000, transparent);
+}
+.vid__title {
+	position: absolute;
+	width: 356px;
+	height: 80px;
+	left: 155px;
+	top: 214px;
+	font-family: $font_family_2;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 60px;
+	line-height: 80px;
+	display: flex;
+	align-items: flex-end;
+	color: $color_2;
+}
+.vid__easy {
+	position: absolute;
+	font-family: $font_family_1;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 17px;
+	left: 155px;
+	top: 317.24px;
+	display: flex;
+	align-items: center;
+	color: $color_2;
+}
+.vid__intro {
+	position: absolute;
+	width: 550px;
+	height: 128px;
+	left: 156px;
+	top: 368px;
+	font-family: $font_family_1;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	color: $color_1;
+}

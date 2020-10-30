@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sub{
+  position: absolute;
+  width: 1600px;
+  height: 339px;
+  left: 0px;
+  top: 2400px;
+  background: #000000;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.cravin__more{
+  position: absolute;
+  width:246.5px;
+  height:26px;
+  left: 155px;
+  top: 130px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #E3CDB1;
+}
+
+.sub__h6{
+  position: absolute;
+  width: 565px;
+  height: 53px;
+  left: 154px;
+  top: 156px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 53px;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+.sub__email{
+  position: absolute;
+  width: 39px;
+  height: 23px;
+  left: 818px;
+  top: 144px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+
+.emailexp{
+  position: absolute;
+  width: 300px;
+  height: 30px;
+  left: 819px;
+  top: 166px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 29px;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+
+.line{
+  position: absolute;
+  width: 300px;
+  height: 1px;
+  left: 819px;
+  top: 208px;
+}
+
+.subnow{
+  left: 1265px;
+  top: 170px;;
+  position: absolute;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: #E3CDB1;
+}
+.box{
+  position: absolute;
+  left: 1199px;
+  top: 157px;
+}
+
+.social__header{
+  position: absolute;
+  left: 635px;
+  top: 2888px;
+  bottom: 429px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.vid__socials{
+  background: #f2f2f2f2;
+}
+
+.face{
+  position: absolute;
+  left: 720px;
+  top: 2910px;
+  bottom: 360px;
+}
+
+.bird{
+  position: absolute;
+  left: 792.08px;
+  top: 2910px;
+  bottom: 360px;
+}
+.yout{
+  position: absolute;
+  left: 851.46px;
+  top: 2910px;
+}
+
+.www{
+  position: absolute;
+  left: 754px;
+  top: 2940px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+
+
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.291667px;
+
+  color: #D0D0D0;
+}
+
