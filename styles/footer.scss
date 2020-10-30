@@ -1,5 +1,92 @@
 
 
 footer {
+	padding-top: 100px;
+	margin: 0 auto;
 	background-color: #000;
+	height: 250px;
+}
+.footerdiv {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+}
+.craving {
+	width: 246.5px;
+	height: 26px;
+	left: 1px;
+	top: 0px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	display: flex;
+	align-items: flex-end;
+	color: #E3CDB1;
+}
+.newsletter {
+	left: 0px;
+	top: 26px;
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 53px;
+	display: flex;
+	align-items: flex-end;
+	color: #FFFFFF;
+}
+.emails {
+	margin-left: 100px;
+	color: #FFFFFF;
+}
+.line {
+	width: 300px;
+	height: 1px;
+	left: 1px;
+	top: 64px;
+	background: #FFFFFF;
+}
+.emailbig {
+	width: 208px;
+	height: 29px;
+	left: 1px;
+	top: 23px;
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 29px;
+	display: flex;
+	align-items: flex-end;
+	color: #525252;
+}
+.emailbig1 {
+	width: 210px;
+	height: 29px;
+	left: 1px;
+	top: 23px;
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 29px;
+	display: flex;
+	align-items: flex-end;
+	color: #FFFFFF;
+}
+.email {
+	width: 39px;
+	height: 21px;
+	left: 0px;
+	top: 2px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 21px;
+	display: flex;
+	align-items: flex-end;
+	color: #FFFFFF;
 }
