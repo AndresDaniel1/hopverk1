@@ -94,11 +94,13 @@ header {
 
 .topline{
   justify-content: space-between;
+  display: flex;
 }
-
+#checkbox{
+  border:3px solid;
+}
 .righttext2{
   width: 250px;
-  height: 50px;
   left: 1066px;
   top: 8px;
   display: flex;
@@ -112,14 +114,21 @@ header {
 
   align-items: flex-end;
   margin-left: auto;
-  padding-bottom: 50px;
-}*/
+  padding-bottom: 24px;
+}
+.righttext2 input{
+  height: 20px;
+}
 
 
 header .content {
   margin: auto;
   width: 100%;
 
+}
+.headerandread{
+  display:flex;
+  justify-content: space-between;
 }
 
 header h1 {
@@ -241,6 +250,10 @@ main {
 .socials{
   text-align: center;
   padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 44%;
+  padding-right: 44%;
 }
 
 .fa{
@@ -313,6 +326,28 @@ label{
   padding-bottom: 13px;
   width: 20%;
   margin: auto;
+  margin-bottom: 33px;
+}
+
+.borders{
+  display:flex;
+}
+hr.leftborder{
+  border-top: 1px solid #E7E7E7;
+  width: 37%;
+  height: 1px;
+  margin-top: 30px;
+  position: absolute;
+  left: 0px;
+}
+hr.rightborder{
+  border-top: 1px solid #E7E7E7;
+  width: 37%;
+  height: 1px;
+  margin-top: 30px;
+  position: absolute;
+  left: 63%;
+
 }
 .boxtext{
   text-align:center;
@@ -329,6 +364,7 @@ label{
 fieldset{
   height:109%;
   border: 0px;
+  margin-left: 1%;
 
 }
 .email1{
@@ -337,6 +373,7 @@ fieldset{
 }
 .buttonflex{
   padding-left: 415px;
+  margin-top: -8%;
 
 }
 #emailad{
@@ -352,4 +389,3 @@ fieldset{
   line-height: 29.33px;
   font-weight: bold;
 }
-
