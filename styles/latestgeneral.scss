@@ -1,0 +1,70 @@
+/* Jakob Þór Gunnarsson || jtg3@hi.is
+Almennar stærðir á síðu
+*/
+@import './config.scss';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  color: $color-blackish;
+}
+button{
+  background-color: $color-black;
+  color: $color-orange;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: bold;
+  width: auto;
+  border: $color-orange;
+  padding: 10px;
+}
+
+main {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+a {
+  color: $color-blackish;
+}
+
+h2, h4 {
+  font-family: Poppins
+}
+h1{
+  width: 356px;
+  height: 80px;
+  left: 0px;
+  top: 24px;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 80px;
+
+  display: flex;
+  align-items: flex-end;
+
+  color: $color-black;
+}
+
+h3{
+  font-family: Playfair Display;
+  font-weight: bold;
+}
+
+h4{
+  font-family: Poppins;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: $color-greyish;
+}

@@ -1,0 +1,87 @@
+/* Jakob Þór Gunnarsson || jtg3@hi.is
+Áskriftarliður og efni inni í áskriftarliði
+*/
+
+@import './config.scss';
+
+
+.subsection{
+  background-image: url(img/Background.png);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  display: flex;
+}
+.Subscribe{
+  margin-bottom: $bottom-margin;
+
+  width: 100%;
+  height: 339px;
+
+  display: flex;
+
+
+
+
+}
+.crave{
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  color: $color-orange;
+}
+.sub{
+  width: 565px;
+  height: 53px;
+  top: 26px;
+
+  font-family: Playfair Display;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 53.32px;
+
+  color: $color-whiteish;
+
+
+}
+
+.Subgroup{
+  margin: auto;
+}
+fieldset{
+  height:109%;
+  border: 0px;
+
+}
+.email1{
+  padding-bottom:5px;
+  padding-top: 18%;
+}
+.buttonflex{
+  padding-left: 415px;
+
+}
+
+label{
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 14px;
+  color: $color-whiteish;
+}
+
+#emailad{
+  background-color: $color-black;
+  font-family: Playfair Display;
+  font-size: 22px;
+  line-height: 29.33px;
+}
+#emailad2{
+  background-color: $color-black;
+  font-family: Playfair Display;
+  font-size: 22px;
+  line-height: 29.33px;
+  font-weight: bold;
+}

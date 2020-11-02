@@ -1,0 +1,115 @@
+/* Jakob Þór Gunnarsson || jtg3@hi.is
+Matvælauppskriftir og lesa meira hlekkur --> beinagrind af verkefni 5 notuð
+*/
+
+@import './config.scss';
+
+.books {
+  margin-bottom: -1rem;
+
+    .col {
+      margin-bottom: $bottom-margin;
+    }
+}
+
+.book {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 100%;
+  min-width: 160px;
+
+  display: flex;
+  flex-direction: column;
+
+    > .content {
+        padding: 0.5rem;
+        border-top: 0;
+
+        flex: 1;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .image {
+      height: 200px;
+      overflow: hidden;
+      }
+
+      .image .img {
+        object-fit: cover;
+        width: 100%;
+        height: 200px;
+
+      }
+
+
+      h3 {
+        margin-bottom: 0.5rem;
+        font-size: 1.5rem;
+      }
+
+      h4 {
+        font-size: 0.875rem;
+        font-weight: normal;
+        text-transform: uppercase;
+      }
+
+      .buy {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: $color-orange;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      .buy .price {
+        margin-right: 0.5rem;
+      }
+  }
+
+.borders{
+  display:flex;
+
+  > .seemore{
+    box-sizing: border-box;
+    border: $color-orange;
+    padding-bottom: 13px;
+    width: 20%;
+    margin: auto;
+  }
+
+  .boxtext{
+    text-align:center;
+    padding-top: 13px;
+    font-family: Poppins;
+    color: $color-orange;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+  }
+
+
+
+  hr.leftborder{
+    border-top: 1px solid $color-grey;
+    width: 37%;
+    height: 1px;
+    margin-top: 30px;
+    position: absolute;
+    left: 0px;
+  }
+  hr.rightborder{
+    border-top: 1px solid $color-grey;
+    width: 37%;
+    height: 1px;
+    margin-top: 30px;
+    position: absolute;
+    left: 63%;
+
+  }
+}

@@ -1,0 +1,86 @@
+/* Jakob Þór Gunnarsson || jtg3@hi.is
+Síðuhaus og efni undir síðuhaus
+*/
+
+@import './config.scss';
+
+
+
+.hero__kicker{
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: $color-orange;
+}
+header {
+  margin-bottom: 2rem;
+  height: 100px;
+  max-width: 1290px;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 30px;
+  display: flex;
+  background-attachment: fixed;
+  justify-content: space-between;
+}
+.righttext{
+  width: 224px;
+  height: 23px;
+  left: 1066px;
+  top: 8px;
+  display: flex;
+  justify-content: space-around;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+
+  align-items: flex-end;
+}
+
+.topline{
+  justify-content: space-between;
+}
+
+.righttext2{
+  width: 250px;
+  height: 50px;
+  left: 1066px;
+  top: 8px;
+  display: flex;
+  justify-content: space-between;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 22px;
+
+  align-items: flex-end;
+  margin-left: auto;
+  padding-bottom: 50px;
+}
+
+
+header .content {
+  margin: auto;
+  width: 100%;
+
+}
+
+header h1 {
+  font-size: 6vmax;
+}
+
+header h2 {
+  font-size: 3vmax;
+}
+
+
+
+
